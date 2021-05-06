@@ -6,26 +6,28 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11-promisification/",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OksanaZherevko/goit-js-hw-11-promisification"
+    "url": "git+https://github.com/OksanaZherevko/goit-js-hw-12-countries"
   },
   "author": "Oksana",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OksanaZherevko/goit-js-hw-11-promisification/issues"
+    "url": "https://github.com/OksanaZherevko/goit-js-hw-12-countries"
   },
-  "homepage": "https://github.com/OksanaZherevko/goit-js-hw-11-promisification",
+  "homepage": "https://github.com/OksanaZherevko/goit-js-hw-12-countries",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2"
   },
   "dependencies": {
+    "@pnotify/core": "^5.2.0",
     "css": "^3.0.0",
+    "debounce": "^1.2.1",
     "gh-pages": "^3.1.0",
     "parcel-plugin-nuke-dist": "^1.0.1",
     "src": "^1.1.2"
